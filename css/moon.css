@@ -39,16 +39,16 @@ h1, h2, h3, h4{
     color: #CC3300;
 }
 h1{
-	font-size: 6.854rem;
-}
-h2{
 	font-size: 4.236rem;
 }
-h3{
+h2{
 	font-size: 2.618rem;
 }
-h4{
+h3{
 	font-size: 1.618rem;
+}
+h4{
+	font-size: 1rem;
 }
 p, li, a{
 	font-family: "Droid Sans",sans-serif;
@@ -84,7 +84,8 @@ a:hover, a:active, a:focus{
     min-height: 400px;
     background-image: url("../img/moon-header.jpg");
     background-repeat: no-repeat;
-    background-position: top right;
+/*    background-position: top right;*/
+    background-size: contain;
 }
 .main{
 	
@@ -118,9 +119,7 @@ a:hover, a:active, a:focus{
     color: #FFFFFF;
     width: 50%;
     text-align: right;
-
-    /*TODO: Check if you need padding in the header or not? */
-    /*padding: 0.618rem; */
+    padding: 0.67rem;
 }
 .main h2{
 	
