@@ -36,21 +36,23 @@ body{
 }
 h1, h2, h3, h4{
 	font-family: "Droid Serif",serif;
+    color: #CC3300;
 }
 h1{
-	
+	font-size: 6.854rem;
 }
 h2{
-	
+	font-size: 4.236rem;
 }
 h3{
-	
+	font-size: 2.618rem;
 }
 h4{
-	
+	font-size: 1.618rem;
 }
 p, li, a{
 	font-family: "Droid Sans",sans-serif;
+    font-size: 0.618rem;
 }
 img{
 	width:90%;
@@ -85,7 +87,7 @@ a:hover, a:active, a:focus{
 	
 }
 .footer{
-	
+	background-color: #333333;
 }
 
 /***********************************
@@ -96,7 +98,8 @@ a:hover, a:active, a:focus{
 .footer a:link,
 .footer a:visited{
 	display: block;
-	
+	color: #CC3300;
+    font-size: 0.618rem;
 }
 .footer a:hover,
 .footer a:active,
@@ -109,7 +112,7 @@ a:hover, a:active, a:focus{
 		CONTENT
 ***********************************/
 .header h1{
-
+    color: #FFFFFF;
 }
 .main h2{
 	
@@ -130,7 +133,7 @@ a:hover, a:active, a:focus{
 	margin-bottom: 10px;
 }
 .footer p{
-    
+    font-size: 0.618rem;
 }
 .footer li{
     /* make these 50% the width of the footer */
