@@ -10,9 +10,6 @@ font-sizes
 1rem
 0.618rem
 
-font-families
-Droid Serif, Droid Sans
-
 colors
 #000000
 #222222
@@ -38,7 +35,7 @@ body{
 	background-color: #222;
 }
 h1, h2, h3, h4{
-	font-family:serif;  /* you need a font stack here */
+	font-family: "Droid Serif",serif;
 }
 h1{
 	
@@ -53,7 +50,7 @@ h4{
 	
 }
 p, li, a{
-	font-family: sans-serif; /* you need a font stack here */
+	font-family: "Droid Sans",sans-serif;
 }
 img{
 	width:90%;
