@@ -37,6 +37,7 @@ body{
 h1, h2, h3, h4{
 	font-family: "Droid Serif",serif;
     color: #CC3300;
+    text-shadow: 1px 1px 1px #CC3300;
 }
 h1{
 	font-size: 4.236rem;
@@ -122,6 +123,7 @@ a:hover, a:active, a:focus{
     text-align: right;
     padding-left: 5%;
     font-size: 6.854rem;
+    text-shadow: none;
 }
 .main h2{
     margin-top: 3%;
