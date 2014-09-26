@@ -148,9 +148,25 @@ a:hover, a:active, a:focus{
     font-size: 0.618rem;
     padding-left: 10%;
     padding-right: 10%;
+    clear: both;
+    padding-top: 2%;
+    padding-bottom: 2%;
+/*    outline: 2px solid yellow;*/
 }
 .footer li{
     /* make these 50% the width of the footer */
-    width: 50%;
+    width: 35%;
     padding-left: 15%;
+    margin-top: 2%;
 }
+
+/* Select first three elements*/
+.footer li:nth-child(odd){
+    float: left;
+}
+
+
+.footer li:nth-child(even){
+    float: right;
+}
+
