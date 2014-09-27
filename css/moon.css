@@ -138,6 +138,7 @@ a:hover, a:active, a:focus{
 .main p{
     margin-top: 3%;
     margin-bottom: 3%;
+    line-height: 150%;
 }
 .main img{
 	/* use border-radius to crop image */
