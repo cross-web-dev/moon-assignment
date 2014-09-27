@@ -110,7 +110,9 @@ a:hover, a:active, a:focus{
 .footer a:hover,
 .footer a:active,
 .footer a:focus{
-	
+    /* Hide the underline of hovered link.*/
+	text-decoration: none;
+    color: yellow;
 }
 
 
@@ -162,6 +164,10 @@ a:hover, a:active, a:focus{
     width: 35%;
     padding-left: 15%;
     margin-top: 2%;
+
+    transition-property: color;
+    transition-duration: 2sec;
+    transition-timing-function: ease;
 }
 
 /* Select first three elements*/
