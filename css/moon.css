@@ -85,8 +85,7 @@ a:hover, a:active, a:focus{
     min-height: 400px;
     background-image: url("../img/moon-header.jpg");
     background-repeat: no-repeat;
-/*    background-position: top right;*/
-    background-size: contain;
+    background-position: top right;
 }
 .main{
 	padding-left: 10%;
