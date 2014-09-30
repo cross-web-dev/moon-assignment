@@ -143,7 +143,7 @@ a:hover, a:active, a:focus{
 	/* use border-radius to crop image */
 	/* choose a width percentage for the image too */
     width: 30%;
-    border-radius: 60px ;
+    border-radius:  9vw 9vw 8vw 10vw;
 }
 .left{
 	float:left;
@@ -221,5 +221,11 @@ a:hover, a:active, a:focus{
 
     .footer a:link{
         font-size: 1rem;
+    }
+}
+
+@media (min-width: 1072px){
+    .main img{
+        border-radius:  8vw 6vw 7vw 8vw;
     }
 }
